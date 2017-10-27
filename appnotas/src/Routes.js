@@ -15,8 +15,8 @@ export default props => (
     <Stack
       key="root"
       titleStyle={{ alignSelf: 'center' }}>
-
-      <Scene key='formCadastro' component={FormComponent} title="Cadastro" />
+     
+      <Scene /*hideNavBar*/ key='formCadastro' component={FormComponent} title="Cadastro" />
       <Scene key='formList' component={ListComponent} title="Lista" />
     </Stack>
   </Router>
